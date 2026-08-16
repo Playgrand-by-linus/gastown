@@ -377,9 +377,9 @@ gt convoy list                         # Check progress
 
 **Best for:** Predefined, repeatable processes
 
-Formulas are TOML-defined workflows embedded in the `gt` binary (source in `internal/formula/formulas/`).
+Formulas are TOML-defined workflows embedded in the `gt` binary (source in `internal/formula/formulas/`; see `gastown-release.formula.toml` for a real-world example).
 
-**Example Formula** (`internal/formula/formulas/release.formula.toml`):
+**Example Formula** (illustrative):
 
 ```toml
 description = "Standard release process"
